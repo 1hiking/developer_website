@@ -23,3 +23,40 @@ body {
 .titulo span {
   font-size: 2rem;
 }
+
+.navegacion-principal {
+  background-color: var(--blue-secondary);
+}
+
+.contenedor {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.nav-bg {
+  background-color: var(--blue-secondary);
+}
+
+.navegacion-principal {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.navegacion-principal a {
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.navegacion-principal a:hover {
+  background-color: var(--primary-honey);
+  color: var(--dark);
+}
+
+@media (min-width:768px) {
+  .navegacion-principal {
+    flex-direction: row;
+  }
+}
