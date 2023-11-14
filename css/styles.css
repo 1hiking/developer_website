@@ -1,3 +1,4 @@
+/* Colores de acceso global */
 :root {
   --blanco: #FFFFFF;
   --oscuro: #212121;
@@ -32,6 +33,7 @@ los puntos de ajuste */
   box-sizing: inherit;
 }
 
+/* Configuración de fuente */
 body {
   font-size: 16px;
   font-family: 'Krub', sans-serif;
